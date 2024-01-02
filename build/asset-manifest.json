@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/static/css/main.74b5b1da.css",
+    "main.js": "/static/js/main.cba64dc6.js",
+    "static/js/27.e9bd2d46.chunk.js": "/static/js/27.e9bd2d46.chunk.js",
+    "static/media/kangmasdemo.ttf": "/static/media/kangmasdemo.25f82904fd648a24c1d5.ttf",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.74b5b1da.css",
+    "static/js/main.cba64dc6.js"
+  ]
+}

@@ -1,0 +1,128 @@
+
+@font-face {
+    font-family: "KangmasDemo";
+    /*Can be any text*/
+    src: local("KangmasDemo"),
+        url("../../fonts/kangmasdemo.ttf") format("truetype");
+}
+
+.game-page-app {
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.game-page-app header {
+    font-family: 'KangmasDemo';
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    width: 100%;
+    display: inline-grid;
+    justify-content: center;
+
+}
+
+.game-page-app header h1 {
+    border: gold solid 5px;
+    padding-top: 5px;
+    width: 250px;
+}
+
+.game-page-main {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    justify-items: center;
+}
+
+.game-info-container {
+    width: 90%;
+    height: 90%;
+    background-color: rgba(10, 1, 44, 0.418);
+    margin-top: 50px;
+    border-radius: 6px;
+    display: grid;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+.game-hack-information {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    background-color: #555;
+    width: 80%;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 225, 255);
+    font-weight: bold;
+    justify-items: center;
+    align-items: center;
+    border-radius: 12px;
+    padding-bottom: 5px;
+}
+
+.game-hacks {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto ;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.game-hacks b {
+    color: rgb(0, 255, 0);
+}
+
+.game-hack-information button {
+    border-radius: 12px;
+    height: 30px;
+    border: none;
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+.game-hack-information button:hover {
+    background-color: rgb(75, 112, 18);
+    color: red;
+    font-weight: bold;
+}
+
+.game-frame iframe {
+    height: 600px;
+    width: 100%;
+    border: none;
+}
+
+.game-frame p{
+    width: 300px;
+    height: 25px;
+    text-align: center;
+    margin: 0;
+    background-color: green;
+    color: gold;
+    font-weight: bold;
+    position: absolute;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.footer span {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.footer .insta {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
